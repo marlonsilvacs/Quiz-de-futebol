@@ -1,10 +1,18 @@
+package main;
+
 import java.util.Scanner;
 
 public class FutQuiz {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int score = 0;
-        
+        System.out.println("Faculdade UNIFAN Alfredo Nasser");
+        System.out.println("Tema = Perguntas (quiz) com tema focado em futebol");
+        System.out.println("Aluno:Marlon Gabriel");
+        System.out.println("-----------------------------");
         System.out.println("Bem-vindo ao Quiz de Futebol!");
         System.out.println("Vamos ver se você entende futebol, essa tá fácil em.");
 
@@ -202,4 +210,6 @@ public class FutQuiz {
 
         
         scanner.close();
+    }
+
     }
